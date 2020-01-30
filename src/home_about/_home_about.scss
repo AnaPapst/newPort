@@ -1,0 +1,26 @@
+.homeAbout {
+    padding: 10%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    &__title {
+        font-family: 'Rozha One', serif;
+        padding-bottom: 15px;
+
+        &--working {
+            padding: 0 70px;
+        }
+
+        &--padding {
+            padding-bottom: 50px;
+        }        
+    }
+
+    p {
+        font-family: 'Rubik', sans-serif; 
+        font-size: 20px;
+    }
+
+}

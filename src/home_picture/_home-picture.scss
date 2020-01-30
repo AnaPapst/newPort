@@ -1,0 +1,40 @@
+.homePicture {
+    border-bottom: 1px solid black;
+    padding-bottom: 60px;
+    
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+
+
+        &--name {
+            font-family: 'Rhodium Libre', serif;
+            text-transform: uppercase;
+            font-size: 40px;
+        }
+
+        &--rule {
+            font-family: 'Rozha One', serif;
+            text-transform: uppercase;
+            font-size: 24px;
+        }
+    }
+}
+
+.dark-block {
+    width: 60%;
+    padding: 10%;
+    background: dimgray;
+
+    //mixin
+    justify-content: center;
+    align-items: center;
+    margin: 1% auto;
+
+    &-img {
+        height: 100px;
+    }
+}
+

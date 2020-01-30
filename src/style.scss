@@ -1,0 +1,21 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */
+@import './home/_home';
+@import './home_picture/home-picture';
+@import './home_about/home_about';
+@import './home_skills/home_skills';
+@import './home_projects/home_projects';
+@import './home_contact/home_contacts';
+
+* {
+    margin: 0;
+    padding: 1% 3%;
+    box-sizing: border-box;
+
+
+    .homeAbout__title,
+    .homeContact__title,
+    .homeSkills__title,
+    .homeProjects__title {
+        font-size: 30px;
+    }
+}

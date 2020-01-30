@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import Home from './home/_home';
+import HomePicture from './home_picture/_home-picture';
 import './App.css';
+import HomeAbout from './home_about/_home_about';
+import HomeSkills from './home_skills/_home_skills';
+import HomeProjects from './home_projects/_home_projects';
+import HomeContact from './home_contact/_home_contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+        <Home />
+        <HomePicture />
+        <HomeAbout />
+        <HomeSkills />
+        <HomeProjects />
+        <HomeContact  />
     </div>
   );
 }

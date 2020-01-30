@@ -1,0 +1,51 @@
+.homeSkills {
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-family: 'Rozha One', serif;
+
+    &--icon {
+        width: 60px;
+    }
+
+    &__skills1 {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+
+        .homeSkills__skillshtml {
+
+
+        }
+        .homeSkills__skillscss3 {
+
+
+        }
+        .homeSkills__skillsjs {
+
+
+        }
+
+    }
+
+    &__skills2 {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        
+        .homeSkills__skillsreact {
+
+
+        }
+        .homeSkills__skillsgit {
+
+
+        }
+        .homeSkills__skillsps {
+
+
+        }
+    }
+
+}
