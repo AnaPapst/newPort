@@ -15,6 +15,7 @@
     &__imagens {
         display: flex;
         justify-content: center;
+        filter: grayscale(100%);
     }
 
     .omniImg, 

@@ -11,7 +11,7 @@ function homePicture() {
         
             <div className="dark-block">
                 <div className="dark-block-img"> 
-                {/*<img src={Picture} alt='' />*/}
+                <img src={Picture} className="homePicture--foto" alt="" />
                 </div>
             </div>
         </div>

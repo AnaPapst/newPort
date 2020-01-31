@@ -1,8 +1,19 @@
 .homeContact {
     text-align: center;
     border-bottom: 1px solid black;
+    padding: 5% 5% 10% 10%;
 
     &__title {
+        font-family: 'Rozha One', serif;
+    }
+
+    &--logoLinkedin {
+        width: 140px;
+        margin: 30px;
+    }
+
+    p {
+        font-size: 30px;
         font-family: 'Rozha One', serif;
     }
 }

@@ -33,7 +33,7 @@ header .nav-links {
 
 .homePicture {
   border-bottom: 1px solid black;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 
 .homePicture__title {
@@ -53,12 +53,20 @@ header .nav-links {
   font-family: 'Rhodium Libre', serif;
   text-transform: uppercase;
   font-size: 40px;
+  white-space: nowrap;
 }
 
 .homePicture__title--rule {
   font-family: 'Rozha One', serif;
   text-transform: uppercase;
   font-size: 24px;
+  white-space: nowrap;
+}
+
+.homePicture--foto {
+  position: relative;
+  width: 400px;
+  top: -145px;
 }
 
 .dark-block {
@@ -112,10 +120,16 @@ header .nav-links {
   text-align: center;
   border-bottom: 1px solid black;
   font-family: 'Rozha One', serif;
+  padding: 5% 5% 10% 10%;
 }
 
 .homeSkills--icon {
-  width: 60px;
+  width: 80px;
+}
+
+.homeSkills__stars {
+  width: 100px;
+  display: block;
 }
 
 .homeSkills__skills1 {
@@ -164,6 +178,8 @@ header .nav-links {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 .homeProjects .omniImg,
@@ -176,9 +192,20 @@ header .nav-links {
 .homeContact {
   text-align: center;
   border-bottom: 1px solid black;
+  padding: 5% 5% 10% 10%;
 }
 
 .homeContact__title {
+  font-family: 'Rozha One', serif;
+}
+
+.homeContact--logoLinkedin {
+  width: 140px;
+  margin: 30px;
+}
+
+.homeContact p {
+  font-size: 30px;
   font-family: 'Rozha One', serif;
 }
 
